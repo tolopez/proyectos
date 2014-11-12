@@ -1,30 +1,28 @@
 /*
-* Skeleton V1.1
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 8/17/2011
-*/
-
+ * Skeleton V1.1
+ * Copyright 2011, Dave Gamache
+ * www.getskeleton.com
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 8/17/2011
+ */
 
 /* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Tabs
-	#Forms
-	#Misc */
-
+ ==================================================
+ #Reset & Basics
+ #Basic Styles
+ #Site Styles
+ #Typography
+ #Links
+ #Lists
+ #Images
+ #Buttons
+ #Tabs
+ #Forms
+ #Misc */
 
 /* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
+ ================================================== */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -38,7 +36,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1;
-/*overflow-x: hidden;*/}
+	/*overflow-x: hidden;*/
+}
 ol, ul {
 	list-style: none;
 }
@@ -54,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 /* #Basic Styles
-================================================== */
+ ================================================== */
 body {
 	font: 12px Arial, Helvetica, sans-serif;
 	line-height: 20px;
@@ -64,10 +63,11 @@ body {
 	overflow-x: hidden;
 }
 html {
-	background:#ececec;
-/*overflow-x: hidden;*/ }
+	background: #FFFFFF;
+	/*overflow-x: hidden;*/
+}
 /* #Typography
-================================================== */
+ ================================================== */
 h1, h2, h3, h4, h5, h6 {
 	color: #414558;
 	font-family: Arial, Helvetica, sans-serif;
@@ -83,14 +83,14 @@ h1 {
 }
 h2 {
 	font-size: 16px;
-	margin-bottom:10px;
-	font-weight:600;
-	text-transform:uppercase;
+	margin-bottom: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 h3 {
 	font-size: 14px;
 	margin-bottom: 5px;
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
 h4 {
 	font-size: 14px;
@@ -109,20 +109,20 @@ h6 {
 }
 p {
 	color: #5e637b;
-	line-height:1.5em;
-	font-size:14px;
+	line-height: 1.5em;
+	font-size: 14px;
 	margin: 0 0 15px 0;
-	font-family: 'PT Serif', serif;
+	font-family: "MS Sans Serif", serif;
 }
 p.last {
-	margin-bottom:0;
+	margin-bottom: 0;
 }
 p img {
 	margin: 0;
 }
 ul li, ul li a {
-	font-family: 'PT Serif', serif;
-	font-size:14px;
+	font-family: "MS Sans Serif", serif;
+	font-size: 14px;
 }
 img.left {
 	float: left;
@@ -174,21 +174,21 @@ hr {
 	margin: 10px 0 30px;
 	height: 0;
 }
-	
+
 /* Text Selection */
 
 ::selection {
-background: #6d8696;
-color: #414558; /* Safari */
+	background: #6d8696;
+	color: #414558; /* Safari */
 }
 ::-moz-selection {
-background: #6d8696;
-color: #414558; /* Firefox */
+	background: #6d8696;
+	color: #414558; /* Firefox */
 }
 /* #Links
-================================================== */
+ ================================================== */
 a, a:visited {
-	color:#8098a6;
+	color: #8098a6;
 	text-decoration: none;
 	outline: 0;
 }
@@ -196,13 +196,13 @@ p a, p a:visited {
 	line-height: inherit;
 }
 /* #Images
-================================================== */
+ ================================================== */
 img.scale-with-grid {
 	max-width: 100%;
 	height: auto;
 }
 /* #Tabs (activate in tabs.js)
-================================================== */
+ ================================================== */
 ul.tabs {
 	display: block;
 	margin: 0 0 20px 0;
@@ -220,10 +220,10 @@ ul.tabs li a {
 	width: auto;
 	height: 18px;
 	padding: 0px 15px 0 0px;
-	border-right:1px solid #414550;
+	border-right: 1px solid #414550;
 	line-height: 30px;
 	margin: 0;
-	color:#FFAA66;
+	color: #FFAA66;
 	font-size: 16px;
 }
 ul.tabs li a.active {
@@ -233,11 +233,11 @@ ul.tabs li a.active {
 	padding-top: 0px;
 	margin: 0 0 0 0px;
 	color: #fff;/*-moz-border-radius-topleft: 2px;
-		-webkit-border-top-left-radius: 2px;
-		border-top-left-radius: 2px;
-		-moz-border-radius-topright: 2px;
-		-webkit-border-top-right-radius: 2px;
-		border-top-right-radius: 2px;*/
+	 -webkit-border-top-left-radius: 2px;
+	 border-top-left-radius: 2px;
+	 -moz-border-radius-topright: 2px;
+	 -webkit-border-top-right-radius: 2px;
+	 border-top-right-radius: 2px;*/
 }
 ul.tabs li:first-child a.active {
 	margin-left: 0;
@@ -245,16 +245,16 @@ ul.tabs li:first-child a.active {
 ul.tabs-content {
 	margin: 0;
 	display: block;
-	color:#efefef;
+	color: #efefef;
 }
 ul.tabs-content > li {
-	display:none;
+	display: none;
 }
 ul.tabs-content > li.active {
 	display: block;
 }
 /* Clearfixing tabs for beautiful stacking */
-	ul.tabs:before, ul.tabs:after {
+ul.tabs:before, ul.tabs:after {
 	content: '\0020';
 	display: block;
 	overflow: hidden;
@@ -269,7 +269,7 @@ ul.tabs {
 	zoom: 1;
 }
 /* #Forms
-================================================== */
+ ================================================== */
 
 /* General Forms */
 
@@ -319,7 +319,7 @@ select {
 	width: 220px;
 }
 /* Header Responsive Menu Form Style */
-	
+
 .header form {
 	margin-bottom: 15px;
 }
@@ -327,14 +327,14 @@ select {
 	-webkit-appearance: none;
 	padding: 10px;
 	outline: none;
-	border:none;
+	border: none;
 	overflow: hidden;
 	font: 12px Arial, Helvetica, sans-serif;
 	margin: 0;
 	width: 100%;
 	max-width: 100%;
 	display: block;
-	background:#fff url('../images/navselect.gif') no-repeat right center;
+	background: #fff url('../images/navselect.gif') no-repeat right center;
 }
 .header option {
 	outline: none;
@@ -349,7 +349,7 @@ select {
 	padding-left: 15px;
 }
 /* #Misc
-================================================== */
+ ================================================== */
 .remove-bottom {
 	margin-bottom: 0 !important;
 }

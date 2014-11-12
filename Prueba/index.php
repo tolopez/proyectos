@@ -1,19 +1,6 @@
-<?php
-include ('setup.php');
-?>
-
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-	<!--<![endif]-->
+<html>
 	<head>
-
-		<!-- Basic Page Needs ==================================================
-		================================================== -->
-
 		<meta charset="utf-8">
 		<title>Cobrinsa</title>
 		<meta name="description" content="Place to put your description text">
@@ -46,7 +33,6 @@ include ('setup.php');
 		<!-- Google Fonts ==================================================
 		================================================== -->
 
-		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<body>
 
 			<!-- Home - Content Part ==================================================
@@ -63,52 +49,45 @@ include ('setup.php');
 							<div id="mainmenu">
 								<ul class="sf-menu">
 									<li>
-										<a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>Home</a>
+										<a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>Inicio</a>
 									</li>
 									<li>
-										<a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>About</a>
+										<a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>Acerca de</a>
 									</li>
 									<li>
-										<a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>Portfolio</a>
+										<a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>Productos</a>
 										<ul>
 											<li>
-												<a href="gallery.html">Portfolio Gallery</a>
+												<a href="gallery.html">Bronce</a>
 											</li>
 										</ul>
 									</li>
 									<li>
-										<a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>Blog</a>
-										<ul>
-											<li>
-												<a href="singleblog.html">Single Post</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>features</a>
-									</li>
-									<li>
-										<a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>Contact</a>
+										<a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>contacto</a>
 									</li>
 								</ul>
 							</div>
-
-							<!-- Responsive Menu -->
-
-							<form id="responsive-menu" action="#" method="post">
-								<select>
-									<option value="">Navigation</option>
-									<option value="index.html">Home</option>
-									<option value="about.html">About</option>
-									<option value="portfolio.html">Portfolio</option>
-									<option value="gallery.html">Portfolio Gallery</option>
-									<option value="blog.html">Blog</option>
-									<option value="singleblog.html">Single Post</option>
-									<option value="features.html">Features</option>
-									<option value="contact.html">Contact</option>
-								</select>
-							</form>
 						</div>
+						<!-- Otro menú responsivo -->
+						<nav class="nav" id="responsive-menu">
+							<ul>
+								<li>
+									<a href="#">Portfolio</a>
+								</li>
+								<li class="current">
+									<a href="#">Illustration</a>
+								</li>
+								<li>
+									<a href="#">Web Design</a>
+								</li>
+								<li>
+									<a href="#">Print Media</a>
+								</li>
+								<li>
+									<a href="#">Graphic Design</a>
+								</li>
+							</ul>
+						</nav>
 					</header>
 				</div>
 			</div>
