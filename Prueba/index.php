@@ -63,7 +63,7 @@
 										</ul>
 									</li>
 									<li>
-										<a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>contacto</a>
+										<a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>Contacto</a>
 									</li>
 								</ul>
 							</div>
@@ -72,19 +72,16 @@
 						<nav class="nav" id="responsive-menu">
 							<ul>
 								<li>
-									<a href="#">Portfolio</a>
+									<a href="#">Inicio</a>
 								</li>
 								<li class="current">
-									<a href="#">Illustration</a>
+									<a href="#">Acerca de</a>
 								</li>
 								<li>
-									<a href="#">Web Design</a>
+									<a href="#">Productos</a>
 								</li>
 								<li>
-									<a href="#">Print Media</a>
-								</li>
-								<li>
-									<a href="#">Graphic Design</a>
+									<a href="#">Contacto</a>
 								</li>
 							</ul>
 						</nav>
@@ -104,7 +101,7 @@
 					<li>
 						<a href="#"><img src="images/flexslider/4.jpg" alt="" /></a>
 						<p class="flex-caption">
-							Welcome to Proximet Site. This is example of the Caption Title.
+							Bienvenidos al sitio de Cobrinsa
 						</p>
 					</li>
 				</ul>
@@ -144,29 +141,29 @@
 			================================================== -->
 			<div class="container clients">
 				<div class="sepContainer"></div>
-				<h2>Our Clients</h2>
+				<h2>Algunos de nuestros clientes</h2>
 				<div class="one_sixth">
-					<img src="images/client1.jpg" alt=""/>
+					<a href="http://rodase.com.mx/"> <img src="images/rodase.jpg" alt=""/> </a>
 				</div>
 				<!-- end one_sixth -->
 				<div class="one_sixth">
-					<img src="images/client2.jpg" alt=""/>
+					<a href="http://www.argentosa.com/"> <img src="images/argentosa.jpg" alt=""/> </a>
 				</div>
 				<!-- end one_sixth -->
 				<div class="one_sixth">
-					<img src="images/client3.jpg" alt=""/>
+					<a href="http://www.argentosa.com/"> <img src="images/alanAgs.jpg" alt=""/></a>
 				</div>
 				<!-- end one_sixth -->
 				<div class="one_sixth">
-					<img src="images/client4.jpg" alt=""/>
+					<a href="http://www.emyasa.com.mx/"> <img src="images/emyasa.jpg" alt=""/></a>
 				</div>
 				<!-- end one_sixth -->
 				<div class="one_sixth">
-					<img src="images/client5.jpg" alt=""/>
+					<a href="http://www.bombasvaldes.com/"> <img src="images/valdes.jpg" alt=""/></a>
 				</div>
 				<!-- end one_sixth -->
 				<div class="one_sixth lastcolumn">
-					<img src="images/client6.jpg" alt=""/>
+					<a href="http://www.fesabronze.com/"> <img src="images/fesa.jpg" alt=""/></a>
 				</div>
 				<!-- end one_sixth lastCol -->
 			</div>
