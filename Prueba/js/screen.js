@@ -48,13 +48,6 @@ $(document).ready(function() {
 	});
 });
 
-// Twitter
-/*$(document).ready(function(){
-$(function(){
-$('#tweets').tweetable({username: 'anariel77', time: true, limit: 1, replies: true, position: 'append'});
-});
-});*/
-
 // Activate the contactform
 $(document).ready(function() {
 	$(function() {
@@ -98,3 +91,30 @@ $(document).ready(function() {
 	}).next().hide();
 });
 
+// Cargar Menú, footer y copyright
+$(document).ready(function() {
+	$.ajax({
+		type : "post",
+		dataType : "html",
+		url : "/prueba/menu.html",
+		success : function(data) {
+			$("#header").html(data);
+		}
+	});
+	$.ajax({
+		type : "post",
+		dataType : "html",
+		url : "/prueba/footer.html",
+		success : function(data) {
+			$("#footer").html(data);
+		}
+	});
+	$.ajax({
+		type : "post",
+		dataType : "html",
+		url : "/prueba/copyright.html",
+		success : function(data) {
+			$("#copyright").html(data);
+		}
+	});
+});

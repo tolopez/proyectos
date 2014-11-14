@@ -8,28 +8,28 @@ img, embed, object, video {
 div.line {
 	height: 6px;
 	background: url(../images/separator.png) 0 0 no-repeat;
-	border-top: 2px solid #FFAA66;
+	border-top: 2px solid #fb881e;
 	display: block;
 	margin: 0;
 }
 div.sepContainer {
 	height: 4px;
-	background: #FFAA66;
-	border-left: 20px solid #FFAA66;
+	background: #fb881e;
+	border-left: 20px solid #fb881e;
 	display: block;
 	margin: 20px 0;
 }
 div.sepContainer1 {
 	height: 4px;
-	background: #FFAA66;
-	border-left: 20px solid #FFAA66;
+	background: #fb881e;
+	border-left: 20px solid #fb881e;
 	display: block;
 	margin: 10px 0 30px 0;
 }
 div.sepContainer2 {
 	height: 4px;
-	background: #FFAA66;
-	border-left: 20px solid #FFAA66;
+	background: #fb881e;
+	border-left: 20px solid #fb881e;
 	display: block;
 	margin: 5px 0;
 }
@@ -66,7 +66,7 @@ div.blankSeparator2 {
 /****************************** HOME - Content Part - Logo&Menu ******************************/
 /* Header - Logo & Menu */
 #header {
-	background: #FFFFFF;
+	background: #f5f5f5;
 	margin-top: 0px;
 	border-bottom: 1px solid #DCDCDC;
 }
@@ -146,7 +146,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	transition: all 0.5s ease-in-out;
 }
 .sf-menu li:hover {/* visited pseudo selector so IE6 applies text colour*/
-	background: #FFAA66;
+	background: #fb881e;
 	border-top: 2px solid #fff;
 }
 .sf-menu li a {
@@ -159,7 +159,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	color: #333333;
 }
 li a#visited {
-	background: #FFAA66;
+	background: #fb881e;
 }
 /*** submenu ***/
 .sf-menu li ul {
@@ -237,9 +237,9 @@ span.home {
 .flexslider {
 	margin: 0px 0 0 0;
 	padding: 0;
-	background: #fff;
-	border-top: 1px solid #;
-	border-bottom: 5px solid #FFAA66;
+	background: #f5f5f5;
+	border-top: 5px solid #fb881e;
+	border-bottom: 5px solid #fb881e;
 }
 .flexslider .slides > li {
 	display: none;
@@ -301,7 +301,7 @@ html[xmlns] .slides {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	background: #FFAA66;
+	background: #fb881e;
 	color: #414558;
 	font-size: 12px;
 	line-height: 15px;
@@ -365,7 +365,7 @@ html[xmlns] .slides {
 }
 /****************************** HOME - Content Part - Box One ******************************/
 .info a {
-	color: #FFAA66;
+	color: #fb881e;
 	margin-left: 0;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease-in-out;
@@ -376,7 +376,7 @@ html[xmlns] .slides {
 }
 .info a:hover {
 	margin-left: 4px;
-	color: #FFAA66;
+	color: #fb881e;
 }
 span.red {
 	color: #c45d69;
@@ -417,7 +417,7 @@ span.green {
 }
 /****************************** HOME - Content Part - Box Three ******************************/
 .boxthree .one_third {
-	background: #FFAA66;
+	background: #fb881e;
 	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), 1px -1px 0px #efefef;
 	border-bottom: 3px solid transparent;
 	-webkit-transition: all 0.3s ease;
@@ -451,7 +451,7 @@ span.green {
 	transition: opacity 1s linear;
 }
 .boxthree h3 {
-	border-bottom: 1px solid #FFAA66;
+	border-bottom: 1px solid #fb881e;
 	font-weight: bold;
 }
 a.simple {
@@ -462,23 +462,23 @@ a.simple {
 #footer {
 	background: #333333;
 	padding: 20px 0px;
-	border-top: 5px solid #FFAA66;
+	border-top: 5px solid #fb881e;
 }
 .footer p {
 	color: white;
 }
 .footer h3 {
-	color: #FFAA66;
+	color: #fb881e;
 }
 #tweets li {
 	line-height: 1.5em;
 	color: #efefef;
 }
 #tweets li a {
-	color: #FFAA66;
+	color: #fb881e;
 }
 #tweets p.meta {
-	color: #FFAA66;
+	color: #fb881e;
 	margin-top: 10px;
 }
 #tweets li.tweet_content_0 {
@@ -516,7 +516,7 @@ a.simple {
 	cursor: pointer;
 }
 .footer ul li a:hover {
-	color: #FFAA66;
+	color: #fb881e;
 	padding-left: 5px;
 }
 /****************************** HOME - Content Part - Copyright ******************************/
@@ -531,7 +531,7 @@ p.copyright {
 	padding-top: 10px;
 }
 p.copyright a {
-	color: #FFAA66;
+	color: #fb881e;
 }
 ul.socials {
 	margin-top: 10px;
@@ -562,7 +562,7 @@ ul.socials li {
 	font-weight: bold;
 	padding: 10px 10px 10px 25px;
 	cursor: pointer;
-	border: 1px solid #FFAA66;
+	border: 1px solid #fb881e;
 	background: #dae4ea url(../images/about/toggle.png) no-repeat 5px 10px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease-in-out;
@@ -571,11 +571,11 @@ ul.socials li {
 	transition: all 0.3s ease-in-out;
 }
 .toggle-trigger.active {
-	border-bottom: 1px solid #FFAA66;
-	background: #FFAA66 url(../images/about/toggle.png) no-repeat 5px -75px;
+	border-bottom: 1px solid #fb881e;
+	background: #fb881e url(../images/about/toggle.png) no-repeat 5px -75px;
 }
 .toggle-trigger:hover {
-	background-color: #FFAA66;
+	background-color: #fb881e;
 }
 .toggle-container {
 	margin-bottom: 0px;
@@ -628,7 +628,7 @@ ul.pagination li a {
 }
 ul.pagination li a:hover, ul.pagination li a#currentPage {
 	text-decoration: none;
-	background-color: #FFAA66;
+	background-color: #fb881e;
 	color: white;
 }
 /****************************** Gallery ******************************/
@@ -644,7 +644,7 @@ ul.pagination li a:hover, ul.pagination li a#currentPage {
 	transition: all 0.3s ease-in-out;
 }
 .portfolio4columns .one_fourth:hover {
-	border-bottom: 2px solid #FFAA66;
+	border-bottom: 2px solid #fb881e;
 }
 .boxfour {
 	padding: 10px 10px 4px 10px;
@@ -688,11 +688,11 @@ ul.tabs li a {
 	padding: 0 20px;
 	line-height: 10px;
 	margin: 0;
-	color: #FFAA66;
+	color: #fb881e;
 	font-size: 16px;
 }
 ul.tabs li a.active {
-	background: #FFAA66;
+	background: #fb881e;
 	padding: 5px 20px;
 	position: relative;
 	top: 0px;
@@ -800,7 +800,7 @@ opacity: 1;
 	transition: opacity 0.5s linear;
 }
 .blog img {
-	background: #FFAA66;
+	background: #fb881e;
 	padding: 10px;
 	margin-left: -10px;
 	margin-bottom: 10px;
@@ -841,7 +841,7 @@ span.left {
 }
 /***************** Blog/Sidebar *****************/
 .sidebar h3 {
-	background: #FFAA66;
+	background: #fb881e;
 	border: 1px solid #fff;
 	padding: 5px;
 }
@@ -902,7 +902,7 @@ span.color {
 	transition: opacity 0.5s linear;
 }
 .singleblog img {
-	background: #FFAA66;
+	background: #fb881e;
 	padding: 10px;
 	margin-left: -10px;
 	margin-bottom: 10px;
@@ -929,7 +929,7 @@ span.color {
 	color: #5f637a;
 }
 .singleblog h4 {
-	color: #FFAA66;
+	color: #fb881e;
 	font-style: italic;
 	font-weight: bold;
 	font-size: 11px;
@@ -978,7 +978,7 @@ div.commentBody {
 	margin: 0px 0 20px 140px;
 }
 div.commentBody h3 {
-	background-color: #FFAA66;
+	background-color: #fb881e;
 	padding: 5px;
 	font-size: 14px;
 	margin-top: -10px;
@@ -994,7 +994,7 @@ div.commentBody p {
 span.adminIcon {
 	color: #414550;
 	font-size: 11px;
-	background-color: #FFAA66;
+	background-color: #fb881e;
 	padding: 6px 10px;
 	width: 60px;
 	text-align: center;
@@ -1011,7 +1011,7 @@ div#comments a.buttonLink {
 	margin-top: 30px;
 }
 .resume .one_third {
-	background: #FFAA66;
+	background: #fb881e;
 	border-bottom: 2px solid #fff;
 }
 .resume .one_third h3 {
@@ -1031,7 +1031,7 @@ div#comments a.buttonLink {
 	margin-top: -20px;
 }
 .resume .two_third ul li {
-	color: #FFAA66;
+	color: #fb881e;
 }
 .resume img {
 	margin-bottom: -30px;
@@ -1115,7 +1115,7 @@ form#contact_form input[type="submit"] {
 	transition: all 0.3s ease-in-out;
 }
 form#contact_form input[type="submit"]:hover {
-	color: #FFAA66;
+	color: #fb881e;
 }
 .map-container {
 	position: relative;
@@ -1135,7 +1135,7 @@ form#contact_form input[type="submit"]:hover {
 }
 /***************** Contact/Sidebar *****************/
 .contactsidebar h3 {
-	background: #FFAA66;
+	background: #fb881e;
 	border: 1px solid #fff;
 	padding: 5px;
 }

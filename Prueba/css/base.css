@@ -63,7 +63,7 @@ body {
 	overflow-x: hidden;
 }
 html {
-	background: #FFFFFF;
+	background: #f5f5f5;
 	/*overflow-x: hidden;*/
 }
 /* #Typography
@@ -223,7 +223,7 @@ ul.tabs li a {
 	border-right: 1px solid #414550;
 	line-height: 30px;
 	margin: 0;
-	color: #FFAA66;
+	color: #fb881e;
 	font-size: 16px;
 }
 ul.tabs li a.active {
