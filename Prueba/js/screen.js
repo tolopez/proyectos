@@ -96,7 +96,7 @@ $(document).ready(function() {
 	$.ajax({
 		type : "post",
 		dataType : "html",
-		url : "/prueba/menu.html",
+		url : "/prueba/menu.php",
 		success : function(data) {
 			$("#header").html(data);
 		}
@@ -104,7 +104,7 @@ $(document).ready(function() {
 	$.ajax({
 		type : "post",
 		dataType : "html",
-		url : "/prueba/footer.html",
+		url : "/prueba/footer.php",
 		success : function(data) {
 			$("#footer").html(data);
 		}
@@ -112,9 +112,24 @@ $(document).ready(function() {
 	$.ajax({
 		type : "post",
 		dataType : "html",
-		url : "/prueba/copyright.html",
+		url : "/prueba/copyright.php",
 		success : function(data) {
 			$("#copyright").html(data);
 		}
 	});
 });
+
+$(window).scroll(function() {
+	if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+		$("#top_link").fadeIn("fast");
+	} else {
+		$("#top_link").fadeOut("fast");
+	}
+});
+
+onClickTopLink = function() {
+	jQuery('html, body').animate({
+		scrollTop : 0
+	}, 600);
+	return false;
+};

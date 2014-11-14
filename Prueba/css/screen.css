@@ -4,6 +4,20 @@
 img, embed, object, video {
 	max-width: 100%
 }
+
+#top_link {
+	width: 54px;
+	height: 54px;
+	border: solid 3px #fff;
+	background-color: #32383f;
+	color: #fff;
+	text-align: center;
+	border-radius: 38px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 38px;
+	font-size: 24px;	
+}
+
 /* Deviders */
 div.line {
 	height: 6px;

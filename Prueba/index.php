@@ -1,57 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Cobrinsa</title>
-		<meta name="description" content="Comercializadora de bronce e insumos S.A. de C.V.">
-		<meta name="author" content="">
-		<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-		<!-- Mobile Specific Metas ==================================================
-		================================================== -->
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-
-		<!-- CSS ==================================================
-		================================================== -->
-
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/skeleton.css">
-		<link rel="stylesheet" href="css/screen.css">
-		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
-
-		<!-- Favicons ==================================================
-		================================================== -->
-
-		<link rel="shortcut icon" href="images/logo-ico.png">
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
-		<!-- Scripts ==================================================
-		================================================== -->
-		<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
-		<!-- Main js files -->
-		<script src="js/screen.js" type="text/javascript"></script>
-		<!-- Tooltip -->
-		<script src="js/poshytip-1.0/src/jquery.poshytip.min.js" type="text/javascript"></script>
-		<!-- Tabs -->
-		<script src="js/tabs.js" type="text/javascript"></script>
-		<!-- Tweets
-		<script src="js/jquery.tweetable.js" type="text/javascript"></script> -->
-		<!-- Include prettyPhoto -->
-		<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-		<!-- Include Superfish -->
-		<script src="js/superfish.js" type="text/javascript"></script>
-		<script src="js/hoverIntent.js" type="text/javascript"></script>
-		<!-- Flexslider -->
-		<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
+		<?php
+		include ('headings.php');
+		?>
 	</head>
 	<body>
-		<div id="header"></div>
+		<div id="header">
+			<?php
+			include ('menu.php');
+			?>
+		</div>
 		<!-- Home Content Part - Slider ==================================================
 		================================================== -->
 		<div class="flexslider">
@@ -107,27 +66,27 @@
 			<div class="sepContainer"></div>
 			<h2>Algunos de nuestros clientes</h2>
 			<div class="one_sixth">
-				<a href="http://rodase.com.mx/"> <img src="images/rodase.jpg" alt=""/> </a>
+				<a href="http://rodase.com.mx/"> <img src="images/rodase.png" alt=""/> </a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth">
-				<a href="http://www.argentosa.com/"> <img src="images/argentosa.jpg" alt=""/> </a>
+				<a href="http://www.argentosa.com/"> <img src="images/argentosa.png" alt=""/> </a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth">
-				<a href="http://www.argentosa.com/"> <img src="images/alanAgs.jpg" alt=""/></a>
+				<a href="http://www.argentosa.com/"> <img src="images/alanAgs.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth">
-				<a href="http://www.emyasa.com.mx/"> <img src="images/emyasa.jpg" alt=""/></a>
+				<a href="http://www.emyasa.com.mx/"> <img src="images/emyasa.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth">
-				<a href="http://www.bombasvaldes.com/"> <img src="images/valdes.jpg" alt=""/></a>
+				<a href="http://www.bombasvaldes.com/"> <img src="images/valdes.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth lastcolumn">
-				<a href="http://www.fesabronze.com/"> <img src="images/fesa.jpg" alt=""/></a>
+				<a href="http://www.fesabronze.com/"> <img src="images/fesa.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth lastCol -->
 		</div>
@@ -135,9 +94,7 @@
 		<!-- Home Content Part - Box Three ==================================================
 		================================================== -->
 		<div class="container boxthree">
-			<div class="sepContainer1">
-				<!-- -->
-			</div>
+			<div class="sepContainer1"></div>
 			<div class="blankSeparator"></div>
 			<div class="one_third">
 				<section class="boxthreeleft">
@@ -177,7 +134,15 @@
 		<div class="blankSeparator1"></div>
 		<!-- End Document
 		================================================== -->
-		<div id="footer"></div>
-		<div id="copyright"></div>
+		<div id="footer">
+			<?php
+			include ('footer.php');
+			?>
+		</div>
+		<div id="copyright">
+			<?php
+			include ('copyright.php');
+			?>
+		</div>
 	</body>
 </html>
