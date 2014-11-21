@@ -29,14 +29,14 @@
 					void 0) {
 						a.pfx = c[d].replace("Perspective", "").toLowerCase();
 						a.prop = "-" + a.pfx + "-transform";
-						return true
+						return true;
 					}
-					return false
+					return false;
 				}();
 				"" !== c.controlsContainer && (a.controlsContainer = 0 < d(c.controlsContainer).length && d(c.controlsContainer));
 				"" !== c.manualControls && (a.manualControls = 0 < d(c.manualControls).length && d(c.manualControls));
 				c.randomize && (a.slides.sort(function() {
-					return Math.round(Math.random()) - 0.5
+					return Math.round(Math.random()) - 0.5;
 				}), a.container.empty().append(a.slides));
 				a.doMath();
 				r && f.asNav.setup();
@@ -47,25 +47,25 @@
 					b = b.keyCode;
 					if (!a.animating && (b === 39 || b === 37)) {
 						b = b === 39 ? a.getTarget("next") : b === 37 ? a.getTarget("prev") : false;
-						a.flexAnimate(b, c.pauseOnAction)
+						a.flexAnimate(b, c.pauseOnAction);
 					}
 				});
 				c.mousewheel && a.bind("mousewheel", function(b, g) {
 					b.preventDefault();
 					var d = g < 0 ? a.getTarget("next") : a.getTarget("prev");
-					a.flexAnimate(d, c.pauseOnAction)
+					a.flexAnimate(d, c.pauseOnAction);
 				});
 				c.pausePlay && f.pausePlay.setup();
 				c.slideshow && (c.pauseOnHover && a.hover(function() {
-					a.pause()
+					a.pause();
 				}, function() {
-					a.manualPause || a.play()
+					a.manualPause || a.play();
 				}), 0 < c.initDelay ? setTimeout(a.play, c.initDelay) : a.play());
 				o && c.touch && f.touch();
 				(!p || p && c.smoothHeight) && d(window).bind("resize focus", f.resize);
 				setTimeout(function() {
-					c.start(a)
-				}, 200)
+					c.start(a);
+				}, 200);
 			},
 			asNav : {
 				setup : function() {
@@ -76,13 +76,13 @@
 					a.slides.click(function(b) {
 						b.preventDefault();
 						var b = d(this), g = b.index();
-						!d(c.asNavFor).data("flexslider").animating && !b.hasClass("active") && (a.direction = a.currentItem < g ? "next" : "prev", a.flexAnimate(g, c.pauseOnAction, !1, !0, !0))
-					})
+						!d(c.asNavFor).data("flexslider").animating && !b.hasClass("active") && (a.direction = a.currentItem < g ? "next" : "prev", a.flexAnimate(g, c.pauseOnAction, !1, !0, !0));
+					});
 				}
 			},
 			controlNav : {
 				setup : function() {
-					a.manualControls ? f.controlNav.setupManual() : f.controlNav.setupPaging()
+					a.manualControls ? f.controlNav.setupManual() : f.controlNav.setupPaging();
 				},
 				setupPaging : function() {
 					var b = 1, g;
@@ -96,11 +96,11 @@
 					a.controlNavScaffold.delegate("a, img", s, function(b) {
 						b.preventDefault();
 						var b = d(this), g = a.controlNav.index(b);
-						b.hasClass(e + "active") || (a.direction = g > a.currentSlide ? "next" : "prev", a.flexAnimate(g, c.pauseOnAction))
+						b.hasClass(e + "active") || (a.direction = g > a.currentSlide ? "next" : "prev", a.flexAnimate(g, c.pauseOnAction));
 					});
 					o && a.controlNavScaffold.delegate("a", "click touchstart", function(a) {
-						a.preventDefault()
-					})
+						a.preventDefault();
+					});
 				},
 				setupManual : function() {
 					a.controlNav = a.manualControls;
@@ -205,14 +205,14 @@
 			sync : function(b) {
 				var g = d(c.sync).data("flexslider"), e = a.animatingTo;
 				switch(b) {
-					case "animate":
-						g.flexAnimate(e, c.pauseOnAction, !1, !0);
-						break;
-					case "play":
-						!g.playing && !g.asNav && g.play();
-						break;
-					case "pause":
-						g.pause()
+				case "animate":
+					g.flexAnimate(e, c.pauseOnAction, !1, !0);
+					break;
+				case "play":
+					!g.playing && !g.asNav && g.play();
+					break;
+				case "pause":
+					g.pause()
 				}
 			}
 		};
@@ -258,22 +258,22 @@
 			!p && !i && (0 === a.currentSlide && a.animatingTo === a.last && c.animationLoop ? a.setProps(b, "jumpEnd") : a.currentSlide === a.last && (0 === a.animatingTo && c.animationLoop) && a.setProps(b, "jumpStart"));
 			a.animating = !1;
 			a.currentSlide = a.animatingTo;
-			c.after(a)
+			c.after(a);
 		};
 		a.animateSlides = function() {
-			a.animating || a.flexAnimate(a.getTarget("next"))
+			a.animating || a.flexAnimate(a.getTarget("next"));
 		};
 		a.pause = function() {
 			clearInterval(a.animatedSlides);
 			a.playing = !1;
 			c.pausePlay && f.pausePlay.update("play");
-			a.syncExists && f.sync("pause")
+			a.syncExists && f.sync("pause");
 		};
 		a.play = function() {
 			a.animatedSlides = setInterval(a.animateSlides, c.slideshowSpeed);
 			a.playing = !0;
 			c.pausePlay && f.pausePlay.update("pause");
-			a.syncExists && f.sync("play")
+			a.syncExists && f.sync("play");
 		};
 		a.canAdvance = function(b) {
 			var d = r ? a.pagingCount - 1 : a.last;
@@ -290,16 +290,16 @@
 					if (i)
 						return "setTouch" === d ? b : m && a.animatingTo === a.last ? 0 : m ? a.limit - (a.itemW + c.itemMargin) * a.move * a.animatingTo : a.animatingTo === a.last ? a.limit : e;
 					switch(d) {
-						case "setTotal":
-							return m ? (a.count - 1 - a.currentSlide + a.cloneOffset) * b : (a.currentSlide + a.cloneOffset) * b;
-						case "setTouch":
-							return b;
-						case "jumpEnd":
-							return m ? b : a.count * b;
-						case "jumpStart":
-							return m ? a.count * b : b;
-						default:
-							return b
+					case "setTotal":
+						return m ? (a.count - 1 - a.currentSlide + a.cloneOffset) * b : (a.currentSlide + a.cloneOffset) * b;
+					case "setTouch":
+						return b;
+					case "jumpEnd":
+						return m ? b : a.count * b;
+					case "jumpStart":
+						return m ? a.count * b : b;
+					default:
+						return b
 					}
 				}() + "px"
 			}();
@@ -314,7 +314,7 @@
 				a.slides.css({
 					width : "100%",
 					"float" : "left",
-					marginRight : "-100%",
+					//marginRight : "-100%",
 					position : "relative"
 				}), "init" === b && a.slides.eq(a.currentSlide).fadeIn(c.animationSpeed, c.easing), c.smoothHeight && f.smoothHeight();
 			else {
@@ -373,7 +373,7 @@
 			a.update(e, "add");
 			a.slides = d(c.selector + ":not(.clone)", a);
 			a.setup();
-			c.added(a)
+			c.added(a);
 		};
 		a.removeSlide = function(b) {
 			var e = isNaN(b) ? a.slides.index(d(b)) : b;
@@ -384,9 +384,9 @@
 			a.update(e, "remove");
 			a.slides = d(c.selector + ":not(.clone)", a);
 			a.setup();
-			c.removed(a)
+			c.removed(a);
 		};
-		f.init()
+		f.init();
 	};
 	d.flexslider.defaults = {
 		namespace : "flex-",
@@ -446,25 +446,25 @@
 			return this.each(function() {
 				var a = d(this), c = a.find(h.selector ? h.selector : ".slides > li");
 				1 === c.length ? (c.fadeIn(400), h.start && h.start(a)) :
-				void 0 === a.data("flexslider") && new d.flexslider(this, h)
+				void 0 === a.data("flexslider") && new d.flexslider(this, h);
 			});
 		var k = d(this).data("flexslider");
 		switch(h) {
-			case "play":
-				k.play();
-				break;
-			case "pause":
-				k.pause();
-				break;
-			case "next":
-				k.flexAnimate(k.getTarget("next"), !0);
-				break;
-			case "prev":
-			case "previous":
-				k.flexAnimate(k.getTarget("prev"), !0);
-				break;
-			default:
-				"number" === typeof h && k.flexAnimate(h, !0)
+		case "play":
+			k.play();
+			break;
+		case "pause":
+			k.pause();
+			break;
+		case "next":
+			k.flexAnimate(k.getTarget("next"), !0);
+			break;
+		case "prev":
+		case "previous":
+			k.flexAnimate(k.getTarget("prev"), !0);
+			break;
+		default:
+			"number" === typeof h && k.flexAnimate(h, !0);
 		}
-	}
-})(jQuery); 
+	};
+})(jQuery);

@@ -20,22 +20,22 @@ $(document).ready(function() {
 /* Hook up the FlexSlider */
 $(document).ready(function() {
 	$('.flexslider').flexslider({
-		animation : "fade", //String: Select your animation type, "fade" or "slide"
+		animation : "slide", //String: Select your animation type, "fade" or "slide"
 		slideDirection : "horizontal", //String: Select the sliding direction, "horizontal" or "vertical"
 		slideshow : true, //Boolean: Animate slider automatically
-		slideshowSpeed : 4000, //Integer: Set the speed of the slideshow cycling, in milliseconds
+		slideshowSpeed : 8000, //Integer: Set the speed of the slideshow cycling, in milliseconds
 		animationDuration : 8000, //Integer: Set the speed of animations, in milliseconds
-		directionNav : true, //Boolean: Create navigation for previous/next navigation? (true/false)
-		controlNav : true, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-		keyboardNav : true, //Boolean: Allow slider navigating via keyboard left/right keys
+		directionNav : false, //Boolean: Create navigation for previous/next navigation? (true/false)
+		controlNav : false, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+		keyboardNav : false, //Boolean: Allow slider navigating via keyboard left/right keys
 		mousewheel : false, //Boolean: Allow slider navigating via mousewheel
 		prevText : "Previous", //String: Set the text for the "previous" directionNav item
 		nextText : "Next", //String: Set the text for the "next" directionNav item
 		pausePlay : false, //Boolean: Create pause/play dynamic element
 		randomize : false, //Boolean: Randomize slide order
-		slideToStart : 0, //Integer: The slide that the slider should start on. Array notation (0 = first slide)
+		slideToStart : 1, //Integer: The slide that the slider should start on. Array notation (0 = first slide)
 		animationLoop : true, //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-		pauseOnAction : true, //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+		pauseOnAction : false, //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
 		pauseOnHover : false, //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
 		start : function() {
 		}, //Callback: function(slider) - Fires when the slider loads the first slide
@@ -105,3 +105,22 @@ onClickTopLink = function() {
 	}, 600);
 	return false;
 };
+
+/*Funciones del Mapa*/
+function initializeMap() {
+	var myLatlng = new google.maps.LatLng(25.5837492, -103.5067862);
+	var mapOptions = {
+		zoom : 15,
+		center : myLatlng,
+		height : 400
+	};
+	var map = new google.maps.Map(document.getElementById('map-container'), mapOptions);
+
+	var marker = new google.maps.Marker({
+		position : myLatlng,
+		map : map,
+		title : 'Cobrinsa'
+	});
+}
+
+google.maps.event.addDomListener(window, 'load', initializeMap);

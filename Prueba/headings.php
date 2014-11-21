@@ -30,6 +30,8 @@
 <!-- Scripts ==================================================
 ================================================== -->
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+<!-- Google Maps Api -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <!-- Main js files -->
 <script src="js/screen.js" type="text/javascript"></script>
 <!-- Tooltip -->

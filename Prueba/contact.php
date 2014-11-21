@@ -13,17 +13,17 @@
 		</div>
 		<!-- Contact Content Part - GoogleMap ==================================================
 		================================================== -->
-		<section class="map">
-			<!-- google map -->
-			<div class="map-holder">
-				<div class="map-container">
-					<iframe class="map" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Munich,+Germany&amp;aq=0&amp;oq=M%C3%BCnchen&amp;sll=37.0625,-95.677068&amp;sspn=53.212719,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Munich,+Upper+Bavaria,+Bavaria,+Germany&amp;t=m&amp;ll=48.23565,11.596069&amp;spn=0.347588,2.635345&amp;z=10&amp;iwloc=A&amp;output=embed"></iframe>
-					<!-- end google map -->
-				</div>
-				<!--map-container ends here-->
+		<!-- <section class="map"> -->
+		<!-- google map -->
+		<div class="map-holder">
+			<div class="map-container" id="map-container">
+				<!-- <iframe class="map" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gómez+Palacio,+DGO,+México&amp;sll=37.0625,-95.677068&amp;sspn=53.212719,135.263672&amp;ie=UTF8&amp;hq=&amp;&amp;t=m&amp;ll=25.5861363,-103.5061606&amp;spn=0.347588,2.635345&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe> -->
+				<!-- end google map -->
 			</div>
-			<!--map-holder ends here-->
-		</section>
+			<!--map-container ends here-->
+		</div>
+		<!--map-holder ends here-->
+		<!-- </section> -->
 
 		<!-- Contact Content Part - Contact Form ==================================================
 		================================================== -->
@@ -33,61 +33,58 @@
 			================================================== -->
 			<div class="one_third contactsidebar">
 				<section class="first">
-					<h3>Blog Navigation</h3>
+					<h3>Dirección</h3>
 					<div class="boxtwosep"></div>
 					<ul class="contactsidebarList">
 						<li>
-							123456 Street Name, London
+							Jazmín #213 Ote, Colonia Nuevo Refugio, Gómez Palacio, Dgo.
 						</li>
 						<li>
-							Phone: (1800) 987-12341
+							Teléfono: (871) 748-6206
 						</li>
 						<li>
-							Fax: (1800) 987-12341
+							Fax: (871) 748-6208
 						</li>
 						<li>
-							Website: <a href="#" title="">http://yoursitename.com</a>
-						</li>
-						<li>
-							Email: <a href="#" title="">info@proximet.com</a>
+							Ventas: <a href="#" title="">ventas@cobrinsa.com</a>
 						</li>
 					</ul>
 				</section>
-				<section class="third">
-					<h3>Latest Offers</h3>
-					<div class="boxtwosep"></div>
-					<h5><span class="color">40%</span> Sale &rsaquo;&rsaquo; Love Fashion</h5>
-					<p>
-						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-					</p>
-				</section>
+				<!-- <section class="third">
+				<h3>Latest Offers</h3>
+				<div class="boxtwosep"></div>
+				<h5><span class="color">40%</span> Sale &rsaquo;&rsaquo; Love Fashion</h5>
+				<p>
+				There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+				</p>
+				</section> -->
 			</div>
 			<!-- one_third ends here -->
 			<div class="two_third lastcolumn contact1">
 				<div id="contactForm">
-					<h2>Leave a comment</h2>
+					<h2>Déjanos tus dudas o comentarios</h2>
 					<div class="sepContainer"></div>
 					<form action="process.php" method="post" id="contact_form">
 						<div class="name">
-							<label for="name">Your Name:</label>
+							<label for="name">Tu nombre:</label>
 							<p>
-								Please enter your full name
+								Por favor ingresa tu nombre completo
 							</p>
-							<input id=name name=email type=text placeholder="e.g. Mr. John Smith" required />
+							<input id="name" name="name" type="text" placeholder="ej. Sr. Juan Rodriguez" required="required" />
 						</div>
 						<div class="email">
-							<label for="email">Your Email:</label>
+							<label for="email">Tu correo electrónico:</label>
 							<p>
-								Please enter your email address
+								Por favor ingresa tu correo electrónico
 							</p>
-							<input id=email name=email type=email placeholder="example@domain.com" required />
+							<input id="email" name="email" type="email" placeholder="ejemplo@dominio.com" required="required" />
 						</div>
 						<div class="message">
-							<label for="message">Your Message:</label>
+							<label for="message">Tu mensaje:</label>
 							<p>
-								Please enter your question
+								Por favor ingresa tus dudas o comentarios
 							</p>
-							<textarea id=message name=message rows=6 cols=10 required></textarea>
+							<textarea id="message" name="message" rows="6" cols="10" required="required"></textarea>
 						</div>
 						<div id="loader">
 							<input type="submit" value="Submit" />

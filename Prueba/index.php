@@ -14,13 +14,13 @@
 			</div>
 			<ul class="slides">
 				<li>
-					<a href="#"><img src="images/flexslider/3.jpg" alt=""/></a>
+					<img src="images/flexslider/3.jpg" alt=""/>
 				</li>
 				<li>
 					<img src="images/flexslider/4.png" alt="" />
 				</li>
 				<li>
-					<a href="#"><img src="images/flexslider/4.jpg" alt="" /></a>
+					<img src="images/flexslider/4.jpg" alt="" />
 					<p class="flex-caption">
 						Bienvenidos al sitio de Cobrinsa
 					</p>
