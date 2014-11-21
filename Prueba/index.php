@@ -6,20 +6,18 @@
 		?>
 	</head>
 	<body>
-		<div id="header">
-			<?php
-			include ('menu.php');
-			?>
-		</div>
-		<!-- Home Content Part - Slider ==================================================
-		================================================== -->
 		<div class="flexslider">
+			<div id="header">
+				<?php
+				include ('menu.php');
+				?>
+			</div>
 			<ul class="slides">
 				<li>
-					<a href="#"><img src="images/flexslider/3.jpg" alt="" style="margin-left: auto; margin-right: auto"/></a>
+					<a href="#"><img src="images/flexslider/3.jpg" alt=""/></a>
 				</li>
 				<li>
-					<img src="images/flexslider/6.jpg" alt="" />
+					<img src="images/flexslider/4.png" alt="" />
 				</li>
 				<li>
 					<a href="#"><img src="images/flexslider/4.jpg" alt="" /></a>

@@ -91,34 +91,6 @@ $(document).ready(function() {
 	}).next().hide();
 });
 
-// Cargar Menú, footer y copyright
-$(document).ready(function() {
-	$.ajax({
-		type : "post",
-		dataType : "html",
-		url : "/prueba/menu.php",
-		success : function(data) {
-			$("#header").html(data);
-		}
-	});
-	$.ajax({
-		type : "post",
-		dataType : "html",
-		url : "/prueba/footer.php",
-		success : function(data) {
-			$("#footer").html(data);
-		}
-	});
-	$.ajax({
-		type : "post",
-		dataType : "html",
-		url : "/prueba/copyright.php",
-		success : function(data) {
-			$("#copyright").html(data);
-		}
-	});
-});
-
 $(window).scroll(function() {
 	if ($(window).scrollTop() + $(window).height() == $(document).height()) {
 		$("#top_link").fadeIn("fast");

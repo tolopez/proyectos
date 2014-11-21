@@ -1,27 +1,22 @@
 <div class="container header">
 	<header>
 		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" style="max-width: 120px; max-height: 96px;" /></a>
+			<a href="index.php"><img src="images/new_logo_cobrinsa_white_1.png" style="max-height: 26px;" /> <img src="images/new_logo_cobrinsa_white_2.png" style="max-height: 24px;" /></a>
 		</div>
 		<div class="mainmenu">
 			<div id="mainmenu">
 				<ul class="sf-menu">
 					<li>
-						<a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>Inicio</a>
+						<a href="index.php" id="visited"><span class="home"><img src="images/home1.png" alt="" /></span>Inicio</a>
 					</li>
 					<li>
-						<a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>Acerca de</a>
+						<a href="about.php"><span class="home"><img src="images/about1.png" alt="" /></span>Acerca de</a>
 					</li>
 					<li>
-						<a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>Productos</a>
-						<ul>
-							<li>
-								<a href="gallery.html">Bronce</a>
-							</li>
-						</ul>
+						<a href="portfolio.php"><span class="home"><img src="images/portfolio1.png" alt="" /></span>Productos</a>
 					</li>
 					<li>
-						<a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>Contacto</a>
+						<a href="contact.php"><span class="home"><img src="images/contact1.png" alt="" /></span>Contacto</a>
 					</li>
 				</ul>
 			</div>
