@@ -16,10 +16,11 @@ img, embed, object, video {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 38px;
 	font-size: 24px;
-}
-
-#top_link:hover {
-	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 /* Deviders */
@@ -99,6 +100,13 @@ div.blankSeparator2 {
 	margin-right: 2px;
 	margin-top: 7px;
 	margin-bottom: 5px;
+	background: transparent;
+	border-top: 2px solid transparent;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .logo a {
@@ -108,6 +116,12 @@ div.blankSeparator2 {
 
 .logo img {
 	margin-left: 5px;
+}
+
+.logo:hover, .nav:hover, .sf-menu li:hover {
+	visibility: inherit;
+	opacity: .6;
+	cursor: pointer;
 }
 
 .mainmenu {
@@ -135,9 +149,7 @@ ul.sf-menu {
 .sf-menu ul li {
 	width: 100%;
 }
-.sf-menu li:hover {
-	visibility: inherit; /* fixes IE7 'sticky bug' */
-}
+
 .sf-menu li {
 	float: left;
 	position: relative;
@@ -181,9 +193,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
-.sf-menu li:hover {/* visited pseudo selector so IE6 applies text colour*/
-	opacity: .6;
-}
+
 .sf-menu li a {
 	font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -301,10 +311,16 @@ html[xmlns] .slides {
  *********************************/
 .flexslider {
 	position: relative;
-	zoom: 1;
+	zoom: 1;	
 }
+
+.flexslider .flex-viewport{
+	max-height: 300px;	
+}
+
 .flexslider .slides {
 	zoom: 1;
+	max-height: 300px;
 }
 .flexslider .slides > li {
 	position: relative;
@@ -1249,18 +1265,8 @@ span.color {
 	float: right;
 }
 
-/* #Media Queries
- ================================================== */
-
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {
-}
-
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	.sf-menu li a {
-		padding: 45px 10px 45px 10px;
-	}
 	.flex-caption {
 		display: none;
 	}
@@ -1277,11 +1283,6 @@ span.color {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-	.mainmenu {
-		float: left;
-		width: 100%;
-		margin-top: -230px;
-	}
 	.one_half, .one_third, .two_third, .one_fourth, .one_fifth, .one_sixth {
 		width: 100%;
 	}
@@ -1318,11 +1319,6 @@ span.color {
 	ul.tabs li {
 		padding: 0 5px 0 0px;
 	}
-	.mainmenu {
-		float: left;
-		width: 100%;
-		margin-top: -340px;
-	}
 	ul.pagination li a {
 		padding: 5px 8px;
 	}
@@ -1349,26 +1345,50 @@ span.color {
 }
 /* Responsive Menu
  ================================================== */
-
-#mainmenu {
-	visibility: visible;
-}
 .nav {
 	display: none;
-	float: left;
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 240px) {
+	#logo_texto {
+		display: none;
+	}
+	.logo img {
+		margin-left: 0px;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+}
+
 /* Otro Menu responsivo
  ======================================================*/
 /* nav */
 @media screen and (max-width: 767px) {
-	#mainmenu {
-		visibility: hidden;
+	.mainmenu {
+		display: none;
 	}
+
+	/*.nav {
+	 float: right;
+	 display: inline-block;
+	 min-height: 40px;
+	 /*margin-top: 13px;
+	 margin-right: 10px;
+	 }*/
 	.nav {
 		display: inline-block;
-		min-height: 40px;
-		margin-top: 13px;
-		margin-right: 100px;
 	}
 	.nav ul {
 		width: 90%;
