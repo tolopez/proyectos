@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<?php
 		include ('headings.php');
 		?>
+		<script>
+			google.maps.event.addDomListener(window, 'load', initializeMap);
+		</script>
 	</head>
 	<body>
 		<div id="header">
 			<?php
+			$pagina = "contact";
 			include ('menu.php');
 			?>
 		</div>

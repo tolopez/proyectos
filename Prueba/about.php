@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<?php
 		include ('headings.php');
@@ -8,6 +8,7 @@
 	<body>
 		<div id="header">
 			<?php
+			$pagina = "about";
 			include ('menu.php');
 			?>
 		</div>

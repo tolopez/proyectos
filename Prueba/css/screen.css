@@ -18,6 +18,10 @@ img, embed, object, video {
 	font-size: 24px;
 }
 
+#top_link:hover {
+	cursor: pointer;
+}
+
 /* Deviders */
 div.line {
 	height: 6px;
@@ -49,7 +53,7 @@ div.sepContainer2 {
 }
 div.blankSeparator {
 	height: 1px;
-	margin: 10px 0;
+	margin: 30px 0;
 	display: block;
 }
 div.blankSeparator1 {
@@ -187,7 +191,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	color: #FFFFFF;
 	-webkit-font-smoothing: antialiased;
 }
-li a#visited {
+li .visited {
 	opacity: .6;
 }
 /*** submenu ***/

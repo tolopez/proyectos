@@ -89,6 +89,8 @@ $(document).ready(function() {
 		$(this).toggleClass("active");
 		return false;
 	}).next().hide();
+	
+	console.log(window.location);
 });
 
 $(window).scroll(function() {
@@ -99,7 +101,7 @@ $(window).scroll(function() {
 	}
 });
 
-onClickTopLink = function() {
+function onClickTopLink() {
 	jQuery('html, body').animate({
 		scrollTop : 0
 	}, 600);
@@ -122,5 +124,3 @@ function initializeMap() {
 		title : 'Cobrinsa'
 	});
 }
-
-google.maps.event.addDomListener(window, 'load', initializeMap);

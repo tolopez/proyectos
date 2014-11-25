@@ -9,18 +9,19 @@
 		<div class="flexslider">
 			<div id="header">
 				<?php
+				$pagina = "home";
 				include ('menu.php');
 				?>
 			</div>
 			<ul class="slides">
 				<li>
-					<img src="images/flexslider/3.jpg" alt=""/>
+					<img src="images/flexslider/3.png" alt=""/>
 				</li>
 				<li>
 					<img src="images/flexslider/4.png" alt="" />
 				</li>
 				<li>
-					<img src="images/flexslider/4.jpg" alt="" />
+					<img src="images/flexslider/6.png" alt="" />
 					<p class="flex-caption">
 						Bienvenidos al sitio de Cobrinsa
 					</p>
@@ -30,69 +31,38 @@
 		<!-- Home Content Part - Box One ==================================================
 		================================================== -->
 		<div class="blankSeparator"></div>
-		<div class="container">
-			<div class="info">
-				<div class="one_third">
-					<h2>New Freebie</h2>
-					<p>
-						Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.
-					</p>
-					<a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a>
-				</div>
-				<div class="two_third lastcolumn">
-					<div class="one_half">
-						<h2>Portfolio News</h2>
-						<p>
-							Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.
-						</p>
-						<a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a>
-					</div>
-					<div class="one_half lastcolumn">
-						<h2>Proximet News</h2>
-						<p>
-							Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.
-						</p>
-						<a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a>
-					</div>
-				</div>
-			</div>
+
+		<!-- <div class="container">
+		<div class="info">
+		<div class="one_third">
+		<h2>New Freebie</h2>
+		<p>
+		Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.
+		</p>
+		<a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a>
 		</div>
+		<div class="two_third lastcolumn">
+		<div class="one_half">
+		<h2>Portfolio News</h2>
+		<p>
+		Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.
+		</p>
+		<a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a>
+		</div>
+		<div class="one_half lastcolumn">
+		<h2>Proximet News</h2>
+		<p>
+		Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.
+		</p>
+		<a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a>
+		</div>
+		</div>
+		</div>
+		</div> -->
 		<!-- container ends here -->
-		<!-- Home Content Part - Box Two ==================================================
-		================================================== -->
-		<div class="container clients">
-			<div class="sepContainer"></div>
-			<h2>Algunos de nuestros clientes</h2>
-			<div class="one_sixth">
-				<a href="http://rodase.com.mx/"> <img src="images/rodase.png" alt=""/> </a>
-			</div>
-			<!-- end one_sixth -->
-			<div class="one_sixth">
-				<a href="http://www.argentosa.com/"> <img src="images/argentosa.png" alt=""/> </a>
-			</div>
-			<!-- end one_sixth -->
-			<div class="one_sixth">
-				<a href="http://www.argentosa.com/"> <img src="images/alanAgs.png" alt=""/></a>
-			</div>
-			<!-- end one_sixth -->
-			<div class="one_sixth">
-				<a href="http://www.emyasa.com.mx/"> <img src="images/emyasa.png" alt=""/></a>
-			</div>
-			<!-- end one_sixth -->
-			<div class="one_sixth">
-				<a href="http://www.bombasvaldes.com/"> <img src="images/valdes.png" alt=""/></a>
-			</div>
-			<!-- end one_sixth -->
-			<div class="one_sixth lastcolumn">
-				<a href="http://www.fesabronze.com/"> <img src="images/fesa.png" alt=""/></a>
-			</div>
-			<!-- end one_sixth lastCol -->
-		</div>
-		<!-- end container -->
 		<!-- Home Content Part - Box Three ==================================================
 		================================================== -->
 		<div class="container boxthree">
-			<div class="sepContainer1"></div>
 			<div class="blankSeparator"></div>
 			<div class="one_third">
 				<section class="boxthreeleft">
@@ -129,6 +99,38 @@
 			<!-- one-third column ends here -->
 		</div>
 		<!-- container ends here -->
+		<!-- Home Content Part - Box Two ==================================================
+		================================================== -->
+		<div class="container clients">
+			<div class="sepContainer"></div>
+			<h2>Algunos de nuestros clientes</h2>
+			<div class="one_sixth">
+				<a href="http://rodase.com.mx/"> <img src="images/rodase.png" alt=""/> </a>
+			</div>
+			<!-- end one_sixth -->
+			<div class="one_sixth">
+				<a href="http://www.argentosa.com/"> <img src="images/argentosa.png" alt=""/> </a>
+			</div>
+			<!-- end one_sixth -->
+			<div class="one_sixth">
+				<a href="http://www.argentosa.com/"> <img src="images/alanAgs.png" alt=""/></a>
+			</div>
+			<!-- end one_sixth -->
+			<div class="one_sixth">
+				<a href="http://www.emyasa.com.mx/"> <img src="images/emyasa.png" alt=""/></a>
+			</div>
+			<!-- end one_sixth -->
+			<div class="one_sixth">
+				<a href="http://www.bombasvaldes.com/"> <img src="images/valdes.png" alt=""/></a>
+			</div>
+			<!-- end one_sixth -->
+			<div class="one_sixth lastcolumn">
+				<a href="http://www.fesabronze.com/"> <img src="images/fesa.png" alt=""/></a>
+			</div>
+			<!-- end one_sixth lastCol -->
+		</div>
+		<!-- end container -->
+
 		<div class="blankSeparator1"></div>
 		<!-- End Document
 		================================================== -->
