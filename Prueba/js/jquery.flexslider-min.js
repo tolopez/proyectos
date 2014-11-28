@@ -108,22 +108,22 @@
 					a.controlNav.live(s, function(b) {
 						b.preventDefault();
 						var b = d(this), g = a.controlNav.index(b);
-						b.hasClass(e + "active") || (g > a.currentSlide ? a.direction = "next" : a.direction = "prev", a.flexAnimate(g, c.pauseOnAction))
+						b.hasClass(e + "active") || (g > a.currentSlide ? a.direction = "next" : a.direction = "prev", a.flexAnimate(g, c.pauseOnAction));
 					});
 					o && a.controlNav.live("click touchstart", function(a) {
-						a.preventDefault()
-					})
+						a.preventDefault();
+					});
 				},
 				set : function() {
-					a.controlNav = d("." + e + "control-nav li " + ("thumbnails" === c.controlNav ? "img" : "a"), a.controlsContainer ? a.controlsContainer : a)
+					a.controlNav = d("." + e + "control-nav li " + ("thumbnails" === c.controlNav ? "img" : "a"), a.controlsContainer ? a.controlsContainer : a);
 				},
 				active : function() {
-					a.controlNav.removeClass(e + "active").eq(a.animatingTo).addClass(e + "active")
+					a.controlNav.removeClass(e + "active").eq(a.animatingTo).addClass(e + "active");
 				},
 				update : function(b, c) {
 					1 < a.pagingCount && "add" === b ? a.controlNavScaffold.append(d("<li><a>" + a.count + "</a></li>")) : 1 === a.pagingCount ? a.controlNavScaffold.find("li").remove() : a.controlNav.eq(c).closest("li").remove();
 					f.controlNav.set();
-					1 < a.pagingCount && a.pagingCount !== a.controlNav.length ? a.update(c, b) : f.controlNav.active()
+					1 < a.pagingCount && a.pagingCount !== a.controlNav.length ? a.update(c, b) : f.controlNav.active();
 				}
 			},
 			directionNav : {
@@ -134,15 +134,15 @@
 					a.directionNav.bind(s, function(b) {
 						b.preventDefault();
 						b = d(this).hasClass(e + "next") ? a.getTarget("next") : a.getTarget("prev");
-						a.flexAnimate(b, c.pauseOnAction)
+						a.flexAnimate(b, c.pauseOnAction);
 					});
 					o && a.directionNav.bind("click touchstart", function(a) {
-						a.preventDefault()
-					})
+						a.preventDefault();
+					});
 				},
 				update : function() {
 					var b = e + "disabled";
-					c.animationLoop || (1 === a.pagingCount ? a.directionNav.addClass(b) : 0 === a.animatingTo ? a.directionNav.removeClass(b).filter("." + e + "prev").addClass(b) : a.animatingTo === a.last ? a.directionNav.removeClass(b).filter("." + e + "next").addClass(b) : a.directionNav.removeClass(b))
+					c.animationLoop || (1 === a.pagingCount ? a.directionNav.addClass(b) : 0 === a.animatingTo ? a.directionNav.removeClass(b).filter("." + e + "prev").addClass(b) : a.animatingTo === a.last ? a.directionNav.removeClass(b).filter("." + e + "next").addClass(b) : a.directionNav.removeClass(b));
 				}
 			},
 			pausePlay : {
@@ -154,18 +154,18 @@
 						b.preventDefault();
 						if (d(this).hasClass(e + "pause")) {
 							a.pause();
-							a.manualPause = true
+							a.manualPause = true;
 						} else {
 							a.play();
-							a.manualPause = false
+							a.manualPause = false;
 						}
 					});
 					o && a.pausePlay.bind("click touchstart", function(a) {
-						a.preventDefault()
-					})
+						a.preventDefault();
+					});
 				},
 				update : function(b) {
-					"play" === b ? a.pausePlay.removeClass(e + "pause").addClass(e + "play").text(c.playText) : a.pausePlay.removeClass(e + "play").addClass(e + "pause").text(c.pauseText)
+					"play" === b ? a.pausePlay.removeClass(e + "pause").addClass(e + "play").text(c.playText) : a.pausePlay.removeClass(e + "play").addClass(e + "pause").text(c.pauseText);
 				}
 			},
 			touch : function() {
@@ -173,33 +173,33 @@
 					j = l ? d - b.touches[0].pageY : d - b.touches[0].pageX;
 					o = l ? Math.abs(j) < Math.abs(b.touches[0].pageX - e) : Math.abs(j) < Math.abs(b.touches[0].pageY - e);
 					if (!o || 500 < Number(new Date) - k)
-						b.preventDefault(), !p && a.transitions && (c.animationLoop || (j /= 0 === a.currentSlide && 0 > j || a.currentSlide === a.last && 0 < j ? Math.abs(j) / n + 2 : 1), a.setProps(f + j, "setTouch"))
+						b.preventDefault(), !p && a.transitions && (c.animationLoop || (j /= 0 === a.currentSlide && 0 > j || a.currentSlide === a.last && 0 < j ? Math.abs(j) / n + 2 : 1), a.setProps(f + j, "setTouch"));
 				}
 
 				function g() {
 					if (a.animatingTo === a.currentSlide && !o && null !== j) {
 						var i = m ? -j : j, l = 0 < i ? a.getTarget("next") : a.getTarget("prev");
-						a.canAdvance(l) && (550 > Number(new Date) - k && 20 < Math.abs(i) || Math.abs(i) > n / 2) ? a.flexAnimate(l, c.pauseOnAction) : a.flexAnimate(a.currentSlide, c.pauseOnAction, !0)
+						a.canAdvance(l) && (550 > Number(new Date) - k && 20 < Math.abs(i) || Math.abs(i) > n / 2) ? a.flexAnimate(l, c.pauseOnAction) : a.flexAnimate(a.currentSlide, c.pauseOnAction, !0);
 					}
 					h.removeEventListener("touchmove", b, !1);
 					h.removeEventListener("touchend", g, !1);
-					f = j = e = d = null
+					f = j = e = d = null;
 				}
 
 				var d, e, f, n, j, k, o = !1;
 				h.addEventListener("touchstart", function(j) {
-					a.animating ? j.preventDefault() : 1 === j.touches.length && (a.pause(), n = l ? a.h : a.w, k = Number(new Date), f = i && m && a.animatingTo === a.last ? 0 : i && m ? a.limit - (a.itemW + c.itemMargin) * a.move * a.animatingTo : i && a.currentSlide === a.last ? a.limit : i ? (a.itemW + c.itemMargin) * a.move * a.currentSlide : m ? (a.last - a.currentSlide + a.cloneOffset) * n : (a.currentSlide + a.cloneOffset) * n, d = l ? j.touches[0].pageY : j.touches[0].pageX, e = l ? j.touches[0].pageX : j.touches[0].pageY, h.addEventListener("touchmove", b, !1), h.addEventListener("touchend", g, !1))
-				}, !1)
+					a.animating ? j.preventDefault() : 1 === j.touches.length && (a.pause(), n = l ? a.h : a.w, k = Number(new Date), f = i && m && a.animatingTo === a.last ? 0 : i && m ? a.limit - (a.itemW + c.itemMargin) * a.move * a.animatingTo : i && a.currentSlide === a.last ? a.limit : i ? (a.itemW + c.itemMargin) * a.move * a.currentSlide : m ? (a.last - a.currentSlide + a.cloneOffset) * n : (a.currentSlide + a.cloneOffset) * n, d = l ? j.touches[0].pageY : j.touches[0].pageX, e = l ? j.touches[0].pageX : j.touches[0].pageY, h.addEventListener("touchmove", b, !1), h.addEventListener("touchend", g, !1));
+				}, !1);
 			},
 			resize : function() {
-				!a.animating && a.is(":visible") && (i || a.doMath(), p ? f.smoothHeight() : i ? (a.slides.width(a.computedW), a.update(a.pagingCount), a.setProps()) : l ? (a.viewport.height(a.h), a.setProps(a.h, "setTotal")) : (c.smoothHeight && f.smoothHeight(), a.newSlides.width(a.computedW), a.setProps(a.computedW, "setTotal")))
+				!a.animating && a.is(":visible") && (i || a.doMath(), p ? f.smoothHeight() : i ? (a.slides.width(a.computedW), a.update(a.pagingCount), a.setProps()) : l ? (a.viewport.height(a.h), a.setProps(a.h, "setTotal")) : (c.smoothHeight && f.smoothHeight(), a.newSlides.width(a.computedW), a.setProps(a.computedW, "setTotal")));
 			},
 			smoothHeight : function(b) {
 				if (!l || p) {
 					var c = p ? a : a.viewport;
 					b ? c.animate({
 						height : a.slides.eq(a.animatingTo).height()
-					}, b) : c.height(a.slides.eq(a.animatingTo).height())
+					}, b) : c.height(a.slides.eq(a.animatingTo).height());
 				}
 			},
 			sync : function(b) {
@@ -212,7 +212,7 @@
 					!g.playing && !g.asNav && g.play();
 					break;
 				case "pause":
-					g.pause()
+					g.pause();
 				}
 			}
 		};
@@ -244,14 +244,14 @@
 							a.animating = !1, a.currentSlide = a.animatingTo;
 						a.container.unbind("webkitTransitionEnd transitionend");
 						a.container.bind("webkitTransitionEnd transitionend", function() {
-							a.wrapup(n)
-						})
+							a.wrapup(n);
+						});
 					} else
 						a.container.animate(a.args, c.animationSpeed, c.easing, function() {
-							a.wrapup(n)
-						})
+							a.wrapup(n);
+						});
 				}
-				c.smoothHeight && f.smoothHeight(c.animationSpeed)
+				c.smoothHeight && f.smoothHeight(c.animationSpeed);
 			}
 		};
 		a.wrapup = function(b) {
@@ -277,11 +277,11 @@
 		};
 		a.canAdvance = function(b) {
 			var d = r ? a.pagingCount - 1 : a.last;
-			return r && 0 === a.currentItem && b === a.pagingCount - 1 && "next" !== a.direction ? !1 : b === a.currentSlide && !r ? !1 : c.animationLoop ? !0 : a.atEnd && 0 === a.currentSlide && b === d && "next" !== a.direction ? !1 : a.atEnd && a.currentSlide === d && 0 === b && "next" === a.direction ? !1 : !0
+			return r && 0 === a.currentItem && b === a.pagingCount - 1 && "next" !== a.direction ? !1 : b === a.currentSlide && !r ? !1 : c.animationLoop ? !0 : a.atEnd && 0 === a.currentSlide && b === d && "next" !== a.direction ? !1 : a.atEnd && a.currentSlide === d && 0 === b && "next" === a.direction ? !1 : !0;
 		};
 		a.getTarget = function(b) {
 			a.direction = b;
-			return "next" === b ? a.currentSlide === a.last ? 0 : a.currentSlide + 1 : 0 === a.currentSlide ? a.last : a.currentSlide - 1
+			return "next" === b ? a.currentSlide === a.last ? 0 : a.currentSlide + 1 : 0 === a.currentSlide ? a.last : a.currentSlide - 1;
 		};
 		a.setProps = function(b, d, e) {
 			var f = function() {
@@ -299,15 +299,15 @@
 					case "jumpStart":
 						return m ? a.count * b : b;
 					default:
-						return b
+						return b;
 					}
-				}() + "px"
+				}() + "px";
 			}();
 			a.transitions && ( f = l ? "translate3d(0," + f + ",0)" : "translate3d(" + f + ",0,0)", e =
 			void 0 !== e ? e / 1E3 + "s" : "0s", a.container.css("-" + a.pfx + "-transition-duration", e));
 			a.args[a.prop] = f;
 			(a.transitions ||
-			void 0 === e) && a.container.css(a.args)
+			void 0 === e) && a.container.css(a.args);
 		};
 		a.setup = function(b) {
 			if (p)
@@ -332,7 +332,7 @@
 					});
 					a.doMath();
 					a.viewport.height(a.h);
-					a.setProps(g * a.h, "init")
+					a.setProps(g * a.h, "init");
 				}, "init" === b ? 100 : 0)) : (a.container.width(200 * (a.count + a.cloneCount) + "%"), a.setProps(g * a.computedW, "init"), setTimeout(function() {
 					a.doMath();
 					a.newSlides.css({
@@ -340,10 +340,10 @@
 						"float" : "left",
 						display : "block"
 					});
-					c.smoothHeight && f.smoothHeight()
-				}, "init" === b ? 100 : 0))
+					c.smoothHeight && f.smoothHeight();
+				}, "init" === b ? 100 : 0));
 			}
-			i || a.slides.removeClass(e + "active-slide").eq(a.currentSlide).addClass(e + "active-slide")
+			i || a.slides.removeClass(e + "active-slide").eq(a.currentSlide).addClass(e + "active-slide");
 		};
 		a.doMath = function() {
 			var b = a.slides.first(), d = c.itemMargin, e = c.minItems, f = c.maxItems;
@@ -351,7 +351,7 @@
 			a.h = b.height();
 			a.boxPadding = b.outerWidth() - b.width();
 			i ? (a.itemT = c.itemWidth + d, a.minW = e ? e * a.itemT : a.w, a.maxW = f ? f * a.itemT : a.w, a.itemW = a.minW > a.w ? (a.w - d * e) / e : a.maxW < a.w ? (a.w - d * f) / f : c.itemWidth > a.w ? a.w : c.itemWidth, a.visible = Math.floor(a.w / (a.itemW + d)), a.move = 0 < c.move && c.move < a.visible ? c.move : a.visible, a.pagingCount = Math.ceil((a.count - a.visible) / a.move + 1), a.last = a.pagingCount - 1, a.limit = 1 === a.pagingCount ? 0 : c.itemWidth > a.w ? (a.itemW + 2 * d) * a.count - a.w - d : (a.itemW + d) * a.count - a.w) : (a.itemW = a.w, a.pagingCount = a.count, a.last = a.count - 1);
-			a.computedW = a.itemW - a.boxPadding
+			a.computedW = a.itemW - a.boxPadding;
 		};
 		a.update = function(b, d) {
 			a.doMath();
@@ -361,7 +361,7 @@
 					f.controlNav.update("add");
 				else if ("remove" === d && !i || a.pagingCount < a.controlNav.length)
 					i && a.currentSlide > a.last && (a.currentSlide -= 1, a.animatingTo -= 1), f.controlNav.update("remove", a.last);
-			c.directionNav && f.directionNav.update()
+			c.directionNav && f.directionNav.update();
 		};
 		a.addSlide = function(b, e) {
 			var f = d(b);
