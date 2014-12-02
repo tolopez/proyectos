@@ -1,53 +1,50 @@
 <!--Footer ==================================================
 ================================================= -->
 <div class="container footer">
-	<div class="one_third">
-		<h3>Blogroll</h3>
+	<div class="one_half">
+		<h3>Mapa del sitio</h3>
 		<ul>
 			<li class="lines">
-				<a href="#" title="">Development Blog</a>
+				<a href="index.php" title="">Inicio</a>
 			</li>
 			<li class="lines">
-				<a href="#" class="">New Freebies</a>
+				<a href="about.php" class="">Acerca de</a>
 			</li>
 			<li class="lines">
-				<a href="#" class="">Themeforest Theme</a>
+				<a href="portfolio.php" class="">Productos</a>
 			</li>
 			<li class="lines">
-				<a href="#" class=""> Design News</a>
-			</li>
-			<li class="lines">
-				<a href="#" class="">WordPress Theme</a>
+				<a href="contact.php" class="">Contacto</a>
 			</li>
 		</ul>
 	</div>
-	<div class="one_third">
-		<h3>Archive</h3>
-		<ul>
-			<li class="lines">
-				<a href="#" class=""> August 2012</a>
-			</li>
-			<li class="lines">
-				<a href="#" class="">July 2012</a>
-			</li>
-			<li class="lines">
-				<a href="#" class="">Juny 2012</a>
-			</li>
-			<li class="lines">
-				<a href="#" class=""> May 2012</a>
-			</li>
-			<li class="lines">
-				<a href="#" class="">April 2012</a>
-			</li>
-		</ul>
-	</div>
-	<div class="one_third lastcolumn">
-		<h3>About</h3>
+	<!-- <div class="one_third">
+	<h3>Archive</h3>
+	<ul>
+	<li class="lines">
+	<a href="#" class=""> August 2012</a>
+	</li>
+	<li class="lines">
+	<a href="#" class="">July 2012</a>
+	</li>
+	<li class="lines">
+	<a href="#" class="">Juny 2012</a>
+	</li>
+	<li class="lines">
+	<a href="#" class=""> May 2012</a>
+	</li>
+	<li class="lines">
+	<a href="#" class="">April 2012</a>
+	</li>
+	</ul>
+	</div> -->
+	<div class="one_half lastcolumn">
+		<h3>Acerca de</h3>
 		<p>
-			Proximet is responsive, simple and clean template with a lot attention to detail. Get it now!
+			Página Web desarrollada por <a href="#">Machetin Motors Inc.</a>
 		</p>
 		<p>
-			Visit <a href="http://anarieldesign.com/" rel="nofollow">Anariel Design</a> and find more interesting things.
+
 		</p>
 	</div>
 </div>
