@@ -95,9 +95,9 @@ $(document).ready(function() {
 
 $(window).scroll(function() {
 	if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-		$("#top_link").fadeIn("fast");
+		$("#top_link").show("slow");
 	} else {
-		$("#top_link").fadeOut("fast");
+		$("#top_link").hide("slow");
 	}
 });
 

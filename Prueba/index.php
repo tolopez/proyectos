@@ -46,7 +46,10 @@
 			</div>
 			<!-- one-third column ends here -->
 			<div class="one_third">
-				<img src="images/home/1.png" alt=""/>
+				<div style="background-color: #fff; min-height: 150px;">
+					<span class="helper"></span>
+					<img src="images/home/2.png" alt="" style="vertical-align: middle;"/>
+				</div>
 				<div class="blankSeparator"></div>
 				<h3>Natural beauty</h3>
 				<p>
@@ -57,7 +60,7 @@
 			</div>
 			<!-- one-third column ends here -->
 			<div class="one_third lastcolumn">
-				<img src="images/home/1.png" alt=""/>
+				<img src="images/home/3.png" alt=""/>
 				<div class="blankSeparator"></div>
 				<h3>Natural beauty</h3>
 				<p>

@@ -49,6 +49,6 @@
 	</div>
 </div>
 <div id="top_link" style="display: block;" onclick="onClickTopLink();">
-	<img src="images/up-arrow-icon.png" width="100%" height="100%"/>
+	<img src="images/up-arrow-icon.png"/>
 </div>
 <!-- footer ends here -->
