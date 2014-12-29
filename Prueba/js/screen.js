@@ -89,7 +89,7 @@ $(document).ready(function() {
 		$(this).toggleClass("active");
 		return false;
 	}).next().hide();
-	
+
 	console.log(window.location);
 });
 
@@ -100,6 +100,14 @@ $(window).scroll(function() {
 		$("#top_link").hide("slow");
 	}
 });
+
+function onClickNavMenu() {
+	if ($('.nav ul').is(":visible")) {
+		$('.nav ul').hide();
+	} else {
+		$('.nav ul').show();
+	}
+};
 
 function onClickTopLink() {
 	jQuery('html, body').animate({

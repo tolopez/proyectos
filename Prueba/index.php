@@ -22,62 +22,83 @@
 				</li>
 				<li>
 					<img src="images/flexslider/6.png" alt="" />
-					<p class="flex-caption">
-						Bienvenidos al sitio de Cobrinsa
-					</p>
 				</li>
 			</ul>
+		</div>
+		<div id="tagline">
+			<h1>COMERCIALIZADORA DE BRONCE
+			<br />
+			<br />
+			<br />
+			E INSUMOS</h1>
 		</div>
 		<!-- Container Marcas Box Three ==================================================
 		================================================== -->
 		<div class="container boxthree">
-			<div class="blankSeparator"></div>
+			<div class="blankSeparator1"></div>
 			<h2>Marcas que manejamos</h2>
-			<div class="blankSeparator"></div>
-			<div class="one_third">
-				<img src="images/home/1.png" alt=""/>
-				<div class="blankSeparator"></div>
-				<h3>Natural beauty</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-				<div class="blankSeparator"></div>
-				<a class ="simple" href="#">+ Learn more</a>
-			</div>
-			<!-- one-third column ends here -->
-			<div class="one_third">
-				<div style="background-color: #fff; min-height: 150px;">
-					<span class="helper"></span>
-					<img src="images/home/2.png" alt="" style="vertical-align: middle;"/>
+			<div class="blankSeparator1"></div>
+			<a href="http://www.graff.com.mx/" target="_blank">
+			<div class="one_fourth">
+				<div class="image_container">
+					<img src="images/home/1.png" alt=""/>
 				</div>
 				<div class="blankSeparator"></div>
-				<h3>Natural beauty</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
+				<div class="text_container">
+					<h3>Abrasivos Graff</h3>
+					<p>
+						Discos de corte, puntas, ruedas, conos y segmentos.
+					</p>
+				</div>
+			</div> </a>
+			<a href="http://www.procut.com.mx/" target="_blank">
+			<div class="one_fourth">
+				<div class="image_container">
+					<img src="images/home/2.png" alt=""/>
+				</div>
 				<div class="blankSeparator"></div>
-				<a class ="simple" href="#">+ Learn more</a>
-			</div>
-			<!-- one-third column ends here -->
-			<div class="one_third lastcolumn">
-				<img src="images/home/3.png" alt=""/>
+				<div class="text_container">
+					<h3>Procut</h3>
+					<p>
+						Limas rotativas de carburo de tungsteno.
+					</p>
+
+				</div>
+			</div></a>
+			<a href="http://www.atlaspacific.net/" target="_blank">
+			<div class="one_fourth">
+				<div class="image_container">
+					<img src="images/home/3.png" alt=""/>
+				</div>
 				<div class="blankSeparator"></div>
-				<h3>Natural beauty</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
+				<div class="text_container">
+					<h3>Atlas Pacific Corporation</h3>
+					<p>
+						Lingote de bronce certificado e insumos para la fundición.
+					</p>
+				</div>
+			</div> </a>
+			<a href="http://atatools.com/" target="_blank">
+			<div class="one_fourth lastcolumn ata">
+				<div class="image_container">
+					<img src="images/home/4.png" alt=""/>
+				</div>
 				<div class="blankSeparator"></div>
-				<a class ="simple" href="#">+ Learn more</a>
-			</div>
-			<!-- one-third column ends here -->
+				<div class="text_container">
+					<h3>ATA Tools</h3>
+					<p>
+						Herramientas neumáticas.
+					</p>
+				</div>
+			</div> </a><!-- one-third column ends here -->
 		</div>
 		<!-- container ends here -->
 		<!-- Container Clientes - Box Two ==================================================
 		================================================== -->
 		<div class="container">
-			<div class="blankSeparator"></div>
+			<div class="blankSeparator1"></div>
 			<h2>Algunos de nuestros clientes</h2>
-			<div class="blankSeparator"></div>
+			<div class="blankSeparator1"></div>
 			<div class="one_sixth">
 				<a href="http://rodase.com.mx/"> <img src="images/rodase.png" alt=""/> </a>
 			</div>

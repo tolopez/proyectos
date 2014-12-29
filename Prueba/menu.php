@@ -34,7 +34,7 @@
 		</nav> -->
 		<!-- Otro menú responsivo -->
 
-		<nav class="nav" id="responsive-menu">
+		<nav class="nav" id="responsive-menu" onclick="onClickNavMenu();">
 			<img src="images/icon-mobile-nav.png" width="24px" height="22px"/>
 			<ul>				
 				<li <?php
