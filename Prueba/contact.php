@@ -91,7 +91,7 @@
 							<textarea id="message" name="message" rows="6" cols="10" required="required"></textarea>
 						</div>
 						<div id="loader">
-							<input type="submit" value="Submit" />
+							<input type="submit" value="Enviar" />
 						</div>
 					</form>
 				</div>

@@ -17,7 +17,7 @@
 						?> ><span class="home"><img src="images/about1.png" alt="" /></span>Acerca de</a>
 					</li>
 					<li>
-						<a href="portfolio.php" <?php
+						<a href="" <?php
 						echo $pagina== 'products' ? 'class="current"' : ''
 						?> ><span class="home"><img src="images/portfolio1.png" alt="" /></span>Productos</a>
 					</li>

@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="eleven columns alpha">
 			<p class="copyright">
-				&copy; Copyright 2014. &quot;Cobrinsa&quot; by <a href="#" rel="nofollow">Cobrinsa desing</a>. All rights reserved.
+				&copy; Copyright 2014. &quot;Cobrinsa&quot; by <a href="https://www.linkedin.com/pub/to%C3%B1o-l%C3%B3pez/82/a98/89" rel="nofollow">Toño López Web Design</a>. All rights reserved.
 			</p>
 		</div>
 		<div class="five columns omega">

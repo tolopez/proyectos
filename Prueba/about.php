@@ -16,45 +16,20 @@
 		================================================== -->
 		<div class="blankSeparator1"></div>
 		<div class="container about">
-			<div class="one_third">
-				<section class="aboutoneleft">
-					<h2>Nuestra Filosofía</h2>
-					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-					</p>
-					<img class="raster" src="images/raster.png" alt=""/>
-					<p class="quote">
-						Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.
-					</p>
-				</section>
+			<div class="one_half">
+				<h2>Nuestra Misión</h2>
+				<p>
+					Nuestra misión es la de ser un proveedor de insumos y materias primas confiable, con el fin de satisfacer las necesidades de nuestros clientes ofreciendo productos de calidad a precios competitivos.
+					Obteniendo con ello resultados favorables que permitan la sustentabilidad del negocio y sus accionistas, así como el desarrollo y capacitación de nuestros empleados, cumpliendo en todo momento con nuestros proveedores, participando en el desarrollo de nuestro entorno social y el cuidado del medio ambiente.
+				</p>
 				<div class="blankSeparator"></div>
 			</div>
 			<!-- end one-third column ends here -->
-			<div class="one_third">
-				<section class="aboutonecenter">
-					<h2>Nuestra Misión</h2>
-					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-					</p>
-					<img class="raster" src="images/raster.png" alt=""/>
-					<p class="quote">
-						Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.
-					</p>
-				</section>
-				<div class="blankSeparator"></div>
-			</div>
-			<!-- end one-third column ends here -->
-			<div class="one_third lastcolumn">
-				<section class="aboutoneright">
-					<h2>Nuestra Visión</h2>
-					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-					</p>
-					<img class="raster" src="images/raster.png" alt=""/>
-					<p class="quote">
-						Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.
-					</p>
-				</section>
+			<div class="one_half lastcolumn">
+				<h2>Nuestra Visión</h2>
+				<p>
+					Llegar a ser una empresa de clase mundial y como distribuidor ofrecer los mejores productos del mercado nacional e internacional.
+				</p>
 				<div class="blankSeparator"></div>
 			</div>
 			<div class="blankSeparator"></div>
@@ -76,7 +51,7 @@
 				actividades de la manera mas eficaz posible, esto permitió el crecimiento de la empresa,
 				obteniendo más proveedores y clientes.
 				<br />
-				Algo que siempre ha caracterizado a nuestra empresa es la unión entre nuestros trabajadores, patrón y cliente. 
+				Algo que siempre ha caracterizado a nuestra empresa es la unión entre nuestros trabajadores, patrón y cliente.
 				Ya que somos una empresa con un entorno familiar que facilita el trabajo en equipo y la organización.
 			</p>
 		</div>

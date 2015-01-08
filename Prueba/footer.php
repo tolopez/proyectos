@@ -11,7 +11,8 @@
 				<a href="about.php" class="">Acerca de</a>
 			</li>
 			<li class="lines">
-				<a href="portfolio.php" class="">Productos</a>
+				<a href="" class="">Productos</a>
+				<!-- <a href="portfolio.php" class="">Productos</a> -->
 			</li>
 			<li class="lines">
 				<a href="contact.php" class="">Contacto</a>
@@ -41,7 +42,7 @@
 	<div class="one_half lastcolumn">
 		<h3>Acerca de</h3>
 		<p>
-			Página Web desarrollada por <a href="#">Machetin Motors Inc.</a>
+			Página Web desarrollada por <a href="https://www.linkedin.com/pub/to%C3%B1o-l%C3%B3pez/82/a98/89">Toño López.</a>
 		</p>
 		<p>
 
