@@ -42,7 +42,7 @@
 	<div class="one_half lastcolumn">
 		<h3>Acerca de</h3>
 		<p>
-			Página Web desarrollada por <a href="https://www.linkedin.com/pub/to%C3%B1o-l%C3%B3pez/82/a98/89">Toño López.</a>
+			Página Web desarrollada por <a href="https://www.linkedin.com/pub/to%C3%B1o-l%C3%B3pez/82/a98/89" target="_blank"> Toño López.</a>
 		</p>
 		<p>
 

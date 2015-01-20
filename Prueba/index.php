@@ -30,14 +30,14 @@
 			<br />
 			<br />
 			<br />
-			E INSUMOS</h1>
+			E INSUMOS S.A. DE C.V.</h1>
 		</div>
 		<!-- Container Marcas Box Three ==================================================
 		================================================== -->
 		<div class="container boxthree">
-			<div class="blankSeparator1"></div>
+			<div class="blankSeparator"></div>
 			<h2>Marcas que manejamos</h2>
-			<div class="blankSeparator1"></div>
+			<div class="blankSeparator"></div>
 			<a href="http://www.graff.com.mx/" target="_blank">
 			<div class="one_fourth">
 				<div class="image_container">
@@ -96,31 +96,35 @@
 		<!-- Container Clientes - Box Two ==================================================
 		================================================== -->
 		<div class="container">
-			<div class="blankSeparator1"></div>
+			<div class="blankSeparator"></div>
 			<h2>Algunos de nuestros clientes</h2>
-			<div class="blankSeparator1"></div>
+			<div class="blankSeparator"></div>
 			<div class="one_sixth">
-				<a href="http://rodase.com.mx/"> <img src="images/rodase.png" alt=""/> </a>
+				<a href="http://rodase.com.mx/" target="_blank"> <img src="images/rodase.png" alt=""/> </a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth">
-				<a href="http://www.argentosa.com/"> <img src="images/argentosa.png" alt=""/> </a>
+				<a href="http://www.argentosa.com/" target="_blank"> <img src="images/argentosa.png" alt=""/> </a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth" >
-				<a href="http://www.argentosa.com/"> <img src="images/alanAgs.png" alt=""/></a>
+				<a href="http://www.fuerzahidraulicamx.com/" target="_blank"> <img src="images/fuerzah.png" alt=""/></a>
+			</div>
+			<!--
+			<div class="one_sixth" >
+			<a href="http://www.argentosa.com/"> <img src="images/alanAgs.png" alt=""/></a>
+			</div>-->
+			<!-- end one_sixth -->
+			<div class="one_sixth">
+				<a href="http://www.emyasa.com.mx/" target="_blank"> <img src="images/emyasa.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth">
-				<a href="http://www.emyasa.com.mx/"> <img src="images/emyasa.png" alt=""/></a>
-			</div>
-			<!-- end one_sixth -->
-			<div class="one_sixth">
-				<a href="http://www.bombasvaldes.com/"> <img src="images/valdes.png" alt=""/></a>
+				<a href="http://www.bombasvaldes.com/" target="_blank"> <img src="images/valdes.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth -->
 			<div class="one_sixth lastcolumn">
-				<a href="http://www.fesabronze.com/"> <img src="images/fesa.png" alt=""/></a>
+				<a href="http://www.fesabronze.com/" target="_blank"> <img src="images/fesa.png" alt=""/></a>
 			</div>
 			<!-- end one_sixth lastCol -->
 		</div>
