@@ -11,7 +11,7 @@
 			<section class="socials">
 				<ul class="socials fr">
 					<li>
-						<a href="#"><img src="images/socials/twitter.png" class="poshytip" title="Twitter"  alt="" /></a>
+						<a href="https://twitter.com/CobrinsaMetales" target="_blank"><img src="images/socials/twitter.png" class="poshytip" title="Twitter"  alt="" /></a>
 					</li>
 					<li>
 						<a href="#"><img src="images/socials/facebook.png" class="poshytip" title="Facebook" alt="" /></a>

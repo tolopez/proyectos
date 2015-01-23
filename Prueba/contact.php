@@ -37,11 +37,14 @@
 			================================================== -->
 			<div class="one_third contactsidebar">
 				<section class="first">
-					<h3>Dirección</h3>
+					<h3 style="color: #FFFFFF; font-weight: bold;">Dirección</h3>
 					<div class="boxtwosep"></div>
 					<ul class="contactsidebarList">
 						<li>
-							Jazmín #213 Ote, Colonia Nuevo Refugio, Gómez Palacio, Dgo.
+							Jazmín #213 Ote, Col. Nuevo Refugio
+						</li>
+						<li>
+							Gómez Palacio, Dgo.
 						</li>
 						<li>
 							Teléfono: (871) 748-6206
@@ -51,6 +54,10 @@
 						</li>
 						<li>
 							Ventas: <a href="#" title="">ventas@cobrinsa.com</a>
+						</li>
+						<li>
+							<img src="images/socials/twitter2.png" class="poshytip" title="Twitter" alt="" style="width: 17px;"/>
+							<a href="https://twitter.com/CobrinsaMetales" target="_blank">@CobrinsaMetales</a>
 						</li>
 					</ul>
 				</section>
@@ -68,7 +75,7 @@
 				<div id="contactForm">
 					<h2>Déjanos tus dudas o comentarios</h2>
 					<div class="sepContainer"></div>
-					<form action="process.php" method="post" id="contact_form">
+					<form action="correo.php" method="post" id="contact_form">
 						<div class="name">
 							<label for="name">Tu nombre:</label>
 							<p>

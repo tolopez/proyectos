@@ -89,8 +89,6 @@ $(document).ready(function() {
 		$(this).toggleClass("active");
 		return false;
 	}).next().hide();
-
-	console.log(window.location);
 });
 
 $(window).scroll(function() {

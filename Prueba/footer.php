@@ -10,9 +10,8 @@
 			<li class="lines">
 				<a href="about.php" class="">Acerca de</a>
 			</li>
-			<li class="lines">
-				<a href="" class="">Productos</a>
-				<!-- <a href="portfolio.php" class="">Productos</a> -->
+			<li class="lines">				
+				<a href="portfolio.php" class="">Productos</a>
 			</li>
 			<li class="lines">
 				<a href="contact.php" class="">Contacto</a>
